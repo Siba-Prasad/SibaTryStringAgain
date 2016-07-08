@@ -20,7 +20,7 @@ int main(int argc, const char * argv[]) {
         
         if (strlen(outputString)<1) {
             
-            if ( !strcmp(&givenString[i], "_")) {
+            if  ( !strcmp(&givenString[i], "_")) {
                 
                 strcpy(&outputString[i], &givenString[i]);
             }
