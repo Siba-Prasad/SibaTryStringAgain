@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
 
     char givenString[30], outputString[30];
     
-    printf("Please Enter a String => ");
+    printf("Please Enter   a String => ");
     scanf("%s",givenString);
     
     for (int i = 0; i<strlen(givenString); i++) {
